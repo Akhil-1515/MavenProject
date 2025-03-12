@@ -11,6 +11,7 @@ public class CampaignModule {
 	public void demo() {
 		WebDriver driver=new ChromeDriver();
 		Reporter.log("CampaignModule created",true);
+		driver.quit();
 	}
 	
 
